@@ -54,48 +54,48 @@ In order to build and run tests: ::
   $ make
   $ ./tests.exe
 
-Samples
+Examples
 ~~~~~~~
 
-Build and run the samples program: ::
+Build and run the example program: ::
 
-  $ cd ~/libscapi/samples
+  $ cd ~/libscapi/examples
   $ make
 
 In order to see all available samples: ::
 
- $ ./libscapi_example.exe
+ $ ./libscapi_example
  
 In order to run simple examples (dlog or sha1): ::
 
- $ ./libscapi_example.exe dlog 
- $ ./libscapi_example.exe sha1
+ $ ./libscapi_example dlog 
+ $ ./libscapi_example sha1
  
 You should get some print outs if everything works well.
 
 In order to run the CommExample. Open two terminals. In the first run: ::
  
- $ ./libscapi_example.exe comm 1 Comm/CommConfig.txt
+ $ ./libscapi_example comm 1 Comm/CommConfig.txt
  
 And in the other run: ::
 
- $ ./libscapi_example.exe comm 2 Comm/CommConfig.txt
+ $ ./libscapi_example comm 2 Comm/CommConfig.txt
 
 In order to run Semi-honset YAO, run in the first terminal: ::
 
-  $ ./libscapi_example.exe yao 1 Yao/YaoConfig.txt
+  $ ./libscapi_example yao 1 Yao/YaoConfig.txt
 
 And in the second: ::
   
-  $ ./libscapi_example.exe yao 2 Yao/YaoConfig.txt
+  $ ./libscapi_example yao 2 Yao/YaoConfig.txt
   
 Finally in order to run the Sigma example - in the first terminal run: ::
 
-  $ ./libscapi_example.exe sigma 1 SigmaPrototocls/SigmaConfig.txt
+  $ ./libscapi_example sigma 1 SigmaPrototocls/SigmaConfig.txt
 
 And in the second terminal: ::
 
- $ ./libscapi_example.exe sigma 1 SigmaPrototocls/SigmaConfig.txt
+ $ ./libscapi_example sigma 1 SigmaPrototocls/SigmaConfig.txt
 
 You can edit the config file in order to play with the different params in all examples.
 
