@@ -50,7 +50,7 @@ Building and Running the Tests
 
 In order to build and run tests: ::
 
-  $ cd ~/libscapi/test
+  $ cd ~/libscapi/tests
   $ make
   $ ./tests.exe
 
